@@ -37,6 +37,8 @@ public class Program {
 		
 		cs.processContract(contract, N);
 		
+		System.out.println();
+		
 		System.out.println("Installments: ");
 		for (Installment it: contract.getInstallments()) {
 			System.out.println(it);
